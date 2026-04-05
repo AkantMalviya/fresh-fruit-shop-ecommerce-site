@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Fruit Shop</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+     <style>
+            body {
+    background-color: #f8f9fa;
+}
+.card {
+    border-radius: 10px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+</style>
+</head>
+
+<body class="bg-gray-100">
+
+<!-- Navbar -->
+<nav class="bg-green-600 text-white sticky top-0 z-50 shadow-md">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+
+        <h1 class="text-xl font-bold">🍎FreshFruitShop</h1>
+
+        <!-- Search -->
+        <div class="flex w-1/2">
+            <input type="text"
+                   placeholder="Search fruits..."
+                   class="w-full px-3 py-1 rounded-l text-black">
+            <button class="bg-gray-400 px-4 rounded-r">Search</button>
+        </div>
+
+        <!-- Actions -->
+        <div class="flex gap-4">
+            <a href="#" class="hover:underline">Login</a>
+            <a href="#" class="hover:underline">Orders</a>
+            <a href="#" class="font-semibold">Cart 🛒</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Content -->
+<div class="max-w-7xl mx-auto p-4">
+    {% block content %}{% endblock %}
+</div>
+
+<!-- Footer -->
+<footer class="bg-gray-800 text-white text-center py-4 mt-10">
+    <p>© 2026 Fresh Fruit Shop 🍓</p>
+</footer>
+
+</body>
+</html>
+

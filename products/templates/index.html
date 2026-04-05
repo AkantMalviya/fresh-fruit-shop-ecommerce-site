@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2 class="text-2xl font-bold mb-6">Organic Fresh Fruits</h2>
+
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+
+    {% for product in products %}
+    <div class="bg-white rounded-xl shadow-sm hover:shadow-xl transition duration-300 overflow-hidden group">
+
+        <!-- Image -->
+        <div class="overflow-hidden">
+            <img src="{{ product.image.url }}"
+                 class="w-full h-48 object-cover group-hover:scale-110 transition duration-300">
+        </div>
+
+        <!-- Content -->
+        <div class="p-3">
+            <h3 class="font-semibold text-lg">{{ product.name }}</h3>
+
+            <p class="text-green-600 font-bold text-lg">₹{{ product.price }}</p>
+
+            <p class="text-sm text-gray-500">Stock: {{ product.stock }}</p>
+
+            <button class="mt-2 w-full bg-green-600 text-white py-2 rounded-lg
+                           hover:bg-green-700 transition">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+
+    {% endfor %}
+
+</div>
+{% endblock %}
