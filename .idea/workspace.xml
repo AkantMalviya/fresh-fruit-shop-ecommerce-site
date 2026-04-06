@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6abdeab9-7fca-4eed-8d1c-ba751be3f940" name="Changes" comment="" />
+    <list default="true" id="6abdeab9-7fca-4eed-8d1c-ba751be3f940" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FruitShop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/FruitShop/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/apple_eUcM3iy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/banana_xXTIKVE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/berry_Wm2gpk1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/grapes_QqANVsb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/mango_cWrHQ8l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/melon_951C25J.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/orange_w1koa2O.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/papaya_KurEzzc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/pomegranate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/pomegranate_B3EPNWf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/images/pomegranate_xxWRyND.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/products.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,9 +39,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="3BwdYAIm03B6FQzZRn0MSDtbYXu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,6 +51,7 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.views.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -43,6 +62,35 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\My Projects\Web Development\Python Django Web Site Projects\Fruit Shop\templates" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Fruit Shop" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/products" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/products/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

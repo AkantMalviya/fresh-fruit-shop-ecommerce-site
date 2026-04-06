@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-l@e*@sf=+8a(0b983qevc(r12#q!9=!b5&h6$f%68i#_kh37h1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['fresh-fruit-shop-ecommerce-site.onrender.com']
+ALLOWED_HOSTS = ['fresh-fruit-shop-ecommerce-site.onrender.com','*']
 
 
 # Application definition
@@ -118,8 +118,15 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
-STATIC_URL = 'static/'
 
-# 👇 ADD BELOW THIS
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+STATIC_URL = '/static/'
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
+
+# # 👇 ADD BELOW THIS
+# MEDIA_URL = '/media/'
+# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

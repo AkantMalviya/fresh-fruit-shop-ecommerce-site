@@ -4,13 +4,14 @@
 <h2 class="text-2xl font-bold mb-6">Organic Fresh Fruits</h2>
 
 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-
+    {% load static %}
     {% for product in products %}
     <div class="bg-white rounded-xl shadow-sm hover:shadow-xl transition duration-300 overflow-hidden group">
 
         <!-- Image -->
+
         <div class="overflow-hidden">
-            <img src="{{ product.image.url }}"
+            <img src="{% static product.image %}"
                  class="w-full h-48 object-cover group-hover:scale-110 transition duration-300">
         </div>
 
