@@ -7,21 +7,6 @@
     <list default="true" id="6abdeab9-7fca-4eed-8d1c-ba751be3f940" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FruitShop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/FruitShop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/images/apple_eUcM3iy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/images/banana_xXTIKVE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/images/berry_Wm2gpk1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/images/grapes_QqANVsb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/images/mango_cWrHQ8l.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/images/melon_951C25J.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/images/orange_w1koa2O.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/images/papaya_KurEzzc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/images/pomegranate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/images/pomegranate_B3EPNWf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/images/pomegranate_xxWRyND.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/products.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +101,11 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FruitShop/settings.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
